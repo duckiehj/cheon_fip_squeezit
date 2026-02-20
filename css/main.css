@@ -54,7 +54,7 @@ h1 {
 }
 
 
-/* -- 2. General Styles -- */
+/* -- 2. General Styles_ Mobile Rules, Tablet Media Query Rules, Desktop Rules -- */
 
 
 #mobile-outline {
@@ -63,3 +63,8 @@ h1 {
    margin: 20px auto 20px auto;
    border-radius: 10px;
 } 
+
+#burger {
+   align-content: right;
+   width: 40px
+}
