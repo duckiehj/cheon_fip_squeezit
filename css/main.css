@@ -1,0 +1,65 @@
+/* alphabet-soup 
+font-family: "alphabet-soup-pro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* 
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+ /* <weight>: Use a value from 300 to 700 */
+ /* <uniquifier>: Use a unique and descriptive class name */
+
+ /* 
+
+    CSS Guide
+
+    1. Web Fonts
+    2. General Styles
+    3. Header
+    4. Main Hero Image
+    5. Why Couples Resort
+    6. About & FAQ
+    7. Contact Form
+    8. Footer
+    9. Activities Mobile Styles
+    10. Rooms Mobile Styles
+    11. Spa Mobile Styles
+    12. Activities Desktop Styles
+
+*/
+
+/* -- 1. Web Fonts --  */
+
+body {
+    font-family: 'Quicksand', sans-serif, arial;
+    font-size: 17px;
+    color: #333;
+}
+   
+
+h1 {
+   font-family: 'alphabet-soup', 'alphabet-soup-pro', sans-serif, arial;
+   font-size: 42px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   letter-spacing: 9px;
+   color: #333;
+   /* text-shadow: #fa8518 3px 3px 0;
+   box-shadow: 5px 5px 0px #bd2ae6; */
+}
+
+
+/* -- 2. General Styles -- */
+
+
+#mobile-outline {
+   outline: 20px solid #333;
+   max-width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
