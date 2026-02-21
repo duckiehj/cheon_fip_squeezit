@@ -102,11 +102,27 @@ h3 {
 
 /* -- 3. Header -- */
 
+#menu-toggle {
+  display: none;
+}
 
+#main-nav{
+  position: relative;
+}
 
-#burger {
-   justify-self: end;
-   width: 30px;
+.burger-icon{
+  display: block;
+  cursor: pointer;
+  text-align: right;     
+  margin-top: 15px;
+}
+
+.burger-icon img{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  
 }
 
 #burger-menu {
@@ -116,12 +132,55 @@ h3 {
    padding: 0;
    margin-bottom: 10px;
    list-style-type: none;
+   text-align: center;
 }
 
-#burger-menu li a {
-   text-decoration: none;
-   color: #bf0413 ;
+#burger-menu li a{
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #bf0413;
+  transition: color 0.2s ease;
 }
+
+#burger-menu li a:hover{
+  color: #F29F05;
+}
+
+#menu-toggle:checked ~ #burger-menu{
+  display: block;
+}
+
+ #main-nav input:checked ~ label img{
+    transform: rotate(90deg);
+ }
+
+@media screen and (min-width: 768px){
+
+  .burger-icon{
+    display: none;
+    }
+
+    #burger-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+  }
+
+  
+    #menu-toggle:checked ~ #burger-menu{
+    display: flex;
+  }
+
+   #burger-menu li a{
+    padding: 10px 12px;
+    }
+}
+
+
+
 
 #logo {
    margin: 15px 0 0 0;
