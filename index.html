@@ -20,17 +20,38 @@
 
   <header class="grid-con center-grid-con">
     <nav class="col-span-full m-col-start-3 m-col-end-11">
-      <div id="burger">
-        <img src="images/burger.svg" alt="Menu">
-      </div>
-
-      <ul id="burger-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about_brand.html">About Brand</a></li>
-        <li><a href="about_products.html">About Products</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      <h2 class="visually-hidden">Main Navigation</h2>
+      <input type="checkbox" id="burger">
+      <label for="burger">
+        <img src="images/burger.svg" alt="Hamburger Menu">
+      </label>
+          <ul id="burger-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_brand.html">About Brand</a></li>
+            <li><a href="about_products.html">About Products</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
     </nav>
+    <!-- 
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+                <ul id="burger-con">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms_mob.html">Rooms</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="spa_mob.html">Spa</a></li>
+                    <li><a href="activities_desk.html">Activities</a></li>
+                    <li><a href="#">Reservations</a></li>
+                </ul>
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
+    </header>
+ -->
 
     <div id="logo" class="col-start-2 col-end-4 m-col-start-5 m-col-end-9">
       <img src="images/squeezit_logo.svg" alt="Squeezit logo">
@@ -39,7 +60,6 @@
 
   <main>
 
-    <!-- HERO -->
     <section id="hero_section" class="box2 grid-full">
       <h2 class="visually-hidden">Squeezit - hero image</h2>
       <div class="grid-con center-grid-con">
@@ -47,7 +67,7 @@
       </div>
     </section>
 
-    <!-- PICK YOUR FAVOURITE -->
+
     <section class="grid-con center-grid-con">
       <h2 class="visually-hidden">Pick your favourite flavour</h2>
 
@@ -78,7 +98,6 @@
       </a>
     </section>
 
-    <!-- HOME VIDEO -->
     <section class="grid-con center-grid-con">
       <h2 class="visually-hidden">Squeezit - brand video</h2>
       <div id="home_video" class="col-start-1 col-end-5 m-col-start-2 m-col-end-12">
@@ -86,27 +105,25 @@
       </div>
     </section>
 
-    <!-- INSPIRATION HEADER -->
+
     <section id="inspiration" class="grid-con center-grid-con">
       <h2 class="visually-hidden">Squeezit - inspiration</h2>
 
-      <div class="what_is col-start-1 col-end-4 m-col-start-3 m-col-end-7">What is Your</div>
-      <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-11">Add automatic image slider</div>
-      <div class="what_is col-start-4 col-end-5 m-col-start-11 m-col-end-13">?</div>
+      <div class="what_is col-start-2 col-end-5 m-col-start-2 m-col-end-8">What is Your</div>
+      <div class="box col-start-1 col-end-3 m-col-start-3 m-col-end-8">Add automatic image slider</div>
+      <div class="what_is col-start-3 col-end-5 m-col-start-8 m-col-end-12">Flavour ?</div>
     </section>
-
-    <!-- INSPIRATION BOARD -->
     <section id="inspiration_board" class="box grid-con center-grid-con">
       <h3 class="visually-hidden">Squeezit - inspiration board</h3>
 
-      <div id="inspiration_img" class="grid-con col-start-1 col-end-5 m-col-start-2 m-col-end-12">
-        <div class="box2 col-span-full">inspiration image 1</div>
-        <div class="box2 col-span-full">inspiration image 2</div>
-        <div class="box2 col-span-full">inspiration image 3</div>
-        <div class="box2 col-span-full">inspiration image 4</div>
-        <div class="box2 col-span-full">inspiration image 5</div>
-        <div class="box2 col-span-full">inspiration image 6</div>
-      </div>
+        <div id="inspiration_img" class="grid-con col-start-1 col-end-5 m-col-start-2 m-col-end-12">
+          <div class="box2 col-span-full m-col-start-1 m-col-end-6">inspiration image 1</div>
+          <div class="box2 col-span-full m-col-start-6 m-col-end-9">inspiration image 2</div>
+          <div class="box2 col-span-full m-col-start-9 m-col-end-13">inspiration image 3</div>
+          <div class="box2 col-span-full m-col-start-1 m-col-end-4">inspiration image 4</div>
+          <div class="box2 col-span-full m-col-start-4 m-col-end-8">inspiration image 5</div>
+          <div class="box2 col-span-full m-col-start-8 m-col-end-13z">Height not decided yet</div>
+        </div>
     </section>
 
   </main>
