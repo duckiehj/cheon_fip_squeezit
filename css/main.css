@@ -21,21 +21,24 @@ font-style: normal; */
     1. Web Fonts
     2. General Styles
     3. Header
+    4. About Brand Page
+
+    8. Footer
 
 
 
-
-    4. Main Hero Image
     5. Why Couples Resort
     6. About & FAQ
     7. Contact Form
-    8. Footer
+   
     9. Activities Mobile Styles
     10. Rooms Mobile Styles
     11. Spa Mobile Styles
     12. Activities Desktop Styles
 
 */
+
+
 
 /* -- 1. Web Fonts --  */
 
@@ -173,8 +176,65 @@ nav {
 }
 
 .container {
-  display: flex;
-  justify-content: space-evenly;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+@media screen and (min-width: 768px){
+   .container{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .item{
+      width: 32%;   
+   }
+}
+
+.item{
+   text-align: center;
+}
+
+.image-placeholder{
+   margin: 0 auto 20px auto;
+}
+
+section .container{
+   margin-top: 40px;
+}
+
+#sustainable_design {
+   background-color: #fff;
+   width: 100%;
+   max-height: 540px;
+   aspect-ratio: 16 / 9;
+   border-radius: clamp(24px, 10vw, 100px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #333;
+
+}
+
+#contact { 
+   height: 200px;
 }
 
 
+
+
+
+
+
+
+
+/* -- 8. Footer  -- */
+
+#copyright {
+   text-align: center;
+   font-size: 14px;
+   font-weight: bold;
+   color: #333;
+   padding: 20px 0;
+}
