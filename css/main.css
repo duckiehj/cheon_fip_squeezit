@@ -181,7 +181,7 @@ nav {
    gap: 40px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
    .container{
       flex-direction: row;
       justify-content: space-between;
@@ -200,8 +200,33 @@ nav {
    margin: 0 auto 20px auto;
 }
 
+.item p{
+  max-width: 320px;  
+  margin: 0 auto;     
+}
+
 section .container{
    margin-top: 40px;
+}
+
+#personality,
+#good h2 {
+  text-align: center;
+}
+
+#personality,
+#good h2 {
+  font-size: 42px;
+  line-height: 0.95;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 768px){
+  #personality,
+  #good h2 {
+    font-size: 58px;
+    letter-spacing: 5px;
+  }
 }
 
 #sustainable_design {
