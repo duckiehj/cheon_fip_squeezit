@@ -179,6 +179,7 @@ nav {
    display: flex;
    flex-direction: column;
    gap: 40px;
+   margin-top: 40px;
 }
 
 @media screen and (min-width: 1024px){
@@ -205,17 +206,10 @@ nav {
   margin: 0 auto;     
 }
 
-section .container{
-   margin-top: 40px;
-}
 
 #personality,
 #good h2 {
   text-align: center;
-}
-
-#personality,
-#good h2 {
   font-size: 42px;
   line-height: 0.95;
   letter-spacing: 2px;
