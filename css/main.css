@@ -41,7 +41,9 @@ font-style: normal; */
 
 body {
     font-family: 'Quicksand', sans-serif, arial;
-    font-size: 17px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
     color: #333;
 }
    
@@ -50,11 +52,20 @@ h1 {
    font-family: 'alphabet-soup', 'alphabet-soup-pro', sans-serif, arial;
    font-size: 42px;
    margin-bottom: 20px;
-   margin-top: 30px;
+   margin-top: 20px;
    letter-spacing: 9px;
-   color: #333;
+   color: #bf0413;
    /* text-shadow: #fa8518 3px 3px 0;
    box-shadow: 5px 5px 0px #bd2ae6; */
+}
+
+h2 {
+   font-family: 'alphabet-soup', 'alphabet-soup-pro', sans-serif, arial;
+   font-size: 58px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   letter-spacing: 5px;
+   color: #bf0413;
 }
 
 
@@ -74,6 +85,7 @@ h1 {
 
 nav {
    margin-top: 5px;
+
 }
 
 #burger {
@@ -114,3 +126,6 @@ nav {
    }
 }
 
+
+
+/* -- 4. About Brand page  -- */
