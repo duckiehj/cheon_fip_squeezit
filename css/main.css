@@ -70,10 +70,47 @@ h1 {
 
 
 
-/* -- Header -- */
+/* -- 3. Header -- */
+
+nav {
+   margin-top: 5px;
+}
 
 #burger {
    justify-self: end;
    width: 40px;
-   color: #bf0413;
 }
+
+#burger-menu {
+   display: none;
+   font-family: 'alphabet-soup', 'alphabet-soup-pro', sans-serif, arial;
+   font-size: 32px;
+   padding: 0;
+   list-style-type: none;
+}
+
+#burger-menu li a {
+   text-decoration: none;
+   color: #bf0413 ;
+}
+
+#logo {
+   margin: 15px 0 5px 0;
+}
+
+
+@media screen and (min-width: 768px) { 
+   nav {
+      order: 2;
+   }
+
+   #burger {
+      display: none;
+   }
+
+   #burger-menu {
+      display: flex;
+      justify-content: space-evenly;   
+   }
+}
+
