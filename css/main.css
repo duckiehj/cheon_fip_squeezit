@@ -42,8 +42,8 @@ font-style: normal; */
 body {
     font-family: 'Quicksand', sans-serif, arial;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 45px;
+    font-size: 18px;
+    line-height: 40px;
     color: #333;
 }
    
@@ -51,9 +51,9 @@ body {
 h1 {
    font-family: 'alphabet-soup', 'alphabet-soup-pro', sans-serif, arial;
    font-size: 42px;
-   margin-bottom: 20px;
-   margin-top: 20px;
+   margin: 20px 0;
    letter-spacing: 9px;
+   line-height: 1.6;
    color: #bf0413;
    /* text-shadow: #fa8518 3px 3px 0;
    box-shadow: 5px 5px 0px #bd2ae6; */
@@ -62,8 +62,7 @@ h1 {
 h2 {
    font-family: 'alphabet-soup', 'alphabet-soup-pro', sans-serif, arial;
    font-size: 58px;
-   margin-bottom: 20px;
-   margin-top: 20px;
+   margin: 20px 0;
    letter-spacing: 5px;
    color: #bf0413;
 }
@@ -90,7 +89,7 @@ nav {
 
 #burger {
    justify-self: end;
-   width: 40px;
+   width: 30px;
 }
 
 #burger-menu {
@@ -129,3 +128,39 @@ nav {
 
 
 /* -- 4. About Brand page  -- */
+
+#brand_hero {
+   background-color: #fff;
+   width: 100%;
+   max-height: 540px;
+   aspect-ratio: 16 / 9;
+   border-radius: clamp(24px, 10vw, 100px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #333;
+
+}
+
+#burst_story h2{
+  font-size: 42px;     
+  line-height: 0.95;
+  letter-spacing: 2px;
+  margin: 18px 0 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  #burst_story h2{
+    font-size: 58px;    
+    letter-spacing: 5px;
+    margin: 20px 0;
+  }
+}
+
+#burst_story p{
+  margin: 0;
+  line-height: 1.6;
+}
+
+
