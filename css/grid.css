@@ -27,7 +27,7 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: powderblue;
+   background-color: #F27405;
    color: rgb(27, 27, 27);
    border-radius: 5px;
    padding: 20px;
@@ -39,7 +39,6 @@ body, p, h1, h2, h3, h4, h5 {
  .box2 {
    background-color: #fbb8b8;
    color: rgb(27, 27, 27);
-   border-radius: 5px;
    padding: 20px;
    margin-top: 10px;
    margin-bottom:10px;
@@ -47,6 +46,19 @@ body, p, h1, h2, h3, h4, h5 {
 
 .center-grid-con {
    margin: 0 auto;
+}
+
+.full-width-grid-con {
+   display: grid;
+   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+
+.image-placeholder {
+   background-color: #fbb8b8;
+   border-radius: 50%;
+   width: 275px;
+   text-align: center;
+   aspect-ratio: 1 / 1;
 }
 
 /* ---Mobile Library Grid Styles--- */
