@@ -17,36 +17,63 @@
 
 <body>
   <h1 class="visually-hidden">Squeezit - Home</h1>
+  
+  <div class="top-section">
 
-  <header class="grid-con center-grid-con">
-    <nav id="main-nav" class="col-span-full m-col-start-3 m-col-end-11">
-        <h2 class="visually-hidden">Main Navigation</h2>
-        <input type="checkbox" id="menu-toggle" >
-        <label for="menu-toggle" class="burger-icon">
-          <img src="images/burger.svg" alt="Hamburger Menu">
-        </label>
-            <ul id="burger-menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about_brand.html">About Brand</a></li>
-              <li><a href="about_products.html">About Products</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-    </nav>
+    <header class="grid-con center-grid-con">
+      <nav id="main-nav" class="col-span-full m-col-start-2 m-col-end-12">
+          <h2 class="visually-hidden">Main Navigation</h2>
+          <input type="checkbox" id="menu-toggle" >
+          <label for="menu-toggle" class="burger-icon">
+            <img src="images/icon_burger.svg" alt="Hamburger Menu">
+          </label>
+              <a href="#" class="search-icon">
+                <img src="images/icon_search.svg" alt="Search">
+              </a>
 
+              <ul id="burger-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_brand.html">About Brand</a></li>
+                <li><a href="about_products.html">Products</a></li>
+                <li><a href="#">Contact</a></li>
 
-    <div id="logo" class="col-start-2 col-end-4 m-col-start-5 m-col-end-9">
-      <img src="images/squeezit_logo.svg" alt="Squeezit logo">
-    </div>
-  </header>
+                <li class="nav-icons-desktop">
+                  <a href="#"><img src="images/icon_search.svg" alt="Search"></a>
+                  <a href="#"><img src="images/icon_login.svg" alt="Login"></a>
+                  <a href="#"><img src="images/icon_cart.svg" alt="Cart"></a>
+                </li>
+              </ul>  
+      </nav>
 
-  <main>
-
-    <section id="hero_section" class="box2 grid-full">
-      <h2 class="visually-hidden">Squeezit - hero image</h2>
-      <div class="grid-con center-grid-con">
-        <div id="hero" class="col-start-1 col-end-5 m-col-start-2 m-col-end-12">Hero Image</div>
+      <div id="logo" class="col-start-2 col-end-4 m-col-start-6 m-col-end-8">
+        <img src="images/squeezit_logo.svg" alt="Squeezit logo">
       </div>
-    </section>
+    </header>
+
+    <section id="hero_section" class="grid-con center-grid-con">
+      <h2 class="visually-hidden">Squeezit - hero image</h2>
+      <div class="hero-wrapper col-span-full">
+        <img
+            sizes="(max-width: 1800px) 100vw, 1800px"
+            srcset="
+            images/prod_hero_urmrvk_c_scale,w_320.webp 320w,
+            images/prod_hero_urmrvk_c_scale,w_859.webp 859w,
+            images/prod_hero_urmrvk_c_scale,w_1209.webp 1209w,
+            images/prod_hero_urmrvk_c_scale,w_1518.webp 1518w,
+            images/prod_hero_urmrvk_c_scale,w_1800.webp 1800w"
+            src="images/prod_hero_urmrvk_c_scale,w_1800.webp"
+            alt="Close-up of three orange slices">
+
+          <div class="hero-text">
+            <p class="tagline">Squeeze The Burst</p>
+            <a href="#" class="hero-btn">Explore More</a>
+          </div>            
+      </div>
+     </section>
+  </div>
+   
+    
+<main>
 
 
     <section class="grid-con center-grid-con">
@@ -107,15 +134,58 @@
         </div>
     </section>
 
-  </main>
+</main>
 
-  <footer class="box2 grid-full">
+
+<footer class="box2 grid-full">
     <div class="grid-con center-grid-con">
+
+      <h2 class="visually-hidden">Footer</h2>
+
+      <div id="footer-social" class="col-span-full m-col-start-10 m-col-end-13">
+        <h3 class="visually-hidden">Social media links</h3>
+        <a href="#">
+          <img src="images/icon_instagram.svg" alt="Instagram">
+        </a>
+        <a href="#">
+          <img src="images/icon_facebook.svg" alt="Facebook">
+        </a>
+        <a href="#">
+          <img src="images/icon_youtube.svg" alt="YouTube">
+        </a>
+      </div>
+
+      <nav id="footer-nav-left" class="col-start-1 col-end-3 m-col-start-5 m-col-end-7">
+        <h3 class="visually-hidden">Footer navigation left</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_brand.html">About Brand</a></li>
+          <li><a href="about_products.html">Products</a></li>
+        </ul>
+      </nav>
+
+      <nav id="footer-nav-right" class="col-start-3 col-end-5 m-col-start-7 m-col-end-9">
+        <h3 class="visually-hidden">Footer navigation right</h3>
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div id="footer-logo" class="col-span-full m-col-start-1 m-col-end-4">
+        <a href="index.html">
+          <img src="images/squeezit_logo.svg" alt="Squeezit logo">
+        </a>
+      </div>
+      
+
       <p id="copyright" class="col-span-full m-col-start-5 m-col-end-9">
         &copy; 2026 Squeezit. All rights reserved.
       </p>
+
     </div>
-  </footer>
+</footer>
 
   <script src="js/main.js"></script>
 </body>
