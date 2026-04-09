@@ -185,7 +185,12 @@ h3 {
 /* -- 4. Index Home Page -- */
 
 .top-section {
-  background-color: #F2CD5C ;
+  background-color: linear-gradient(
+    to bottom,
+    #F2CD5C 0%,
+    #F2B705 40%,
+    #F27405 100%
+  );
 }
 
 .hero-wrapper {
