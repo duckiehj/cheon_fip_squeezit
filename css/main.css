@@ -477,7 +477,7 @@ h3 {
     grid-column: 2 / 3;
   }
 }
-}
+
 
 /* -- 9. Desktop Queries  -- */
 
@@ -527,13 +527,7 @@ h3 {
   color: #BF0413;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 40px;
-  width: 100%;
-}
+
 
 #sustainable_design {
   background-color: #fff;
