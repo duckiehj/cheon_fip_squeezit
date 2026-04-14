@@ -50,28 +50,36 @@
       </div>
     </header>
 
-  <section id="product-story" class="grid-full">
-      <div class="grid-con center-grid-con">
-        <div id="product-hero" class="col-start-1 col-end-5 m-col-start-2 m-col-end-12">
-          <video controls preload="metadata" poster="images/video_brand.png">
-            <source src="video/video_brand.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>  
-      
-  
-    <div class="product-overview-box col-start-1 col-end-5 m-col-start-2 m-col-end-12">
-    <div class="product-overview-text">
-        <h2>Product Overview</h2>
-          <p><span>SQUEEZIT</span> is a 100% real fruit squeezed juice made to deliver bold, tropical flavour in every sip.
-            Crafted from vibrant fruits and designed for everyday refreshment, it brings a clean,
-            fruit-forward taste with a bright finish.
-          </p>
-    </div>      
+<section id="product-story" class="grid-full">
+  <div class="grid-con center-grid-con">
+
+    <div id="product-hero" class="col-start-1 col-end-5 m-col-start-2 m-col-end-12">
+      <img
+        sizes="100vw"
+        srcset="
+        images/product_hero_ilcsf0_c_scale,w_320.png 320w,
+        images/product_hero_ilcsf0_c_scale,w_631.png 631w,
+        images/product_hero_ilcsf0_c_scale,w_859.png 859w,
+        images/product_hero_ilcsf0_c_scale,w_1206.png 1206w,
+        images/product_hero_ilcsf0_c_scale,w_1800.png 1800w"
+        src="images/product_hero_ilcsf0_c_scale,w_1800.png"
+        alt="Squeezit bottle placed in a tropical environment with palm trees">
     </div>
+
+    <div class="product-overview-box col-start-1 col-end-5 m-col-start-2 m-col-end-12">
+      <div class="product-overview-text">
+        <h2>Product Overview</h2>
+        <p><span>SQUEEZIT</span> is a 100% real fruit squeezed juice made to deliver bold, tropical flavour in every sip.
+          Crafted from vibrant fruits and designed for everyday refreshment, it brings a clean,
+          fruit-forward taste with a bright finish.
+        </p>
+      </div>
+    </div>
+
   </div>
-  </section>
+</section>
 </div>
+
 
 
 <main>  
@@ -90,50 +98,100 @@
     </div>
   </section>
 
-    <section id="explore" class="grid-con center-grid-con">
-      <h2 class="col-start-1 col-end-5 m-col-start-2 m-col-end-12">Explore The Flavour</h2>
-               
-            <div class="product-container col-start-1 col-end-5 m-col-start-2 m-col-end-12">
-                <div class="product-item">
-                        <div class="product-flavour"></div>
-                        <h3>Mango</h3>
-                        <p>A bright and refreshing tropical juice experience that brings joy through bold flavors and vibrant energy.
-                        </p>
-                        <a href="#" class="product-btn">Add to Cart</a>      
-                </div>
-                <div class="product-item">
-                        <div class="product-flavour"></div>
-                        <h3>Lemon</h3>
-                        <p>A hands on, squeezable design that turns drinking into a fun and interactive moment.
-                        </p> 
-                        <a href="#" class="product-btn">Add to Cart</a>    
-                </div>
-                <div class="product-item">
-                        <div class="product-flavour"></div> 
-                        <h3>Orange</h3>
-                        <p>Vitamin enhanced fruit juice that delivers a natural energy lift with every squeeze.
-                        </p> 
-                        <a href="#" class="product-btn">Add to Cart</a>   
-                </div>
-                <div class="product-item">
-                        <div class="product-flavour"></div> 
-                        <h3>Coconut</h3>
-                        <p>Vitamin enhanced fruit juice that delivers a natural energy lift with every squeeze.
-                        </p> 
-                        <a href="#" class="product-btn">Add to Cart</a>   
-                </div>
-            </div>
-    </section>
+<section id="explore" class="grid-con center-grid-con">
+  <h2 class="col-start-1 col-end-5 m-col-start-2 m-col-end-12">Explore The Flavour</h2>
 
-    <section id="design" class="grid-full">
-            <div class="grid-con center-grid-con">
-                <div id="bottle" class="col-start-1 col-end-5 m-col-start-2 m-col-end-12">
-                        <h2>Bottle Design</h2>
-                        <p><span>SQUEEZIT</span>’s bottle design is inspired by the natural shape of a fruit, featuring a rounded, squeezable form that fits comfortably in the hand. The design emphasizes playfulness and functionality, with a wide opening for easy filling and cleaning. The bottle is made from squeezable plastic, allowing users to control the flow of juice with a simple squeeze. The surface is printed directly with product information and branding using washable ink, eliminating the need for additional labels and enhancing recyclability. This thoughtful design approach not only creates an engaging user experience but also supports sustainability by reducing material waste.</p>
-                </div>
-                        
-            </div>
-    </section>
+  <div class="product-slider col-start-1 col-end-5 m-col-start-2 m-col-end-12">
+    <button class="prev">‹</button>
+
+    <div class="product-container">
+      <div class="product-item">
+        <div class="product-flavour">
+          <img src="images/pro_mango.png" alt="Mango flavour">
+        </div>
+
+        <div class="product-copy">
+          <h3>Mango</h3>
+          <p>A bright and refreshing tropical juice experience that brings joy through bold flavors and vibrant energy.</p>
+        </div>
+        <a href="#" class="product-btn">Add to Cart</a>
+      </div>
+
+      <div class="product-item">
+        <div class="product-flavour">
+          <img src="images/pro_lemon.png" alt="Lemon flavour">
+        </div>
+        
+        <div class="product-copy">
+          <h3>Lemon</h3>
+          <p>A hands on, squeezable design that turns drinking into a fun and interactive moment.</p>
+        </div>
+        <a href="#" class="product-btn">Add to Cart</a>
+      </div>
+
+      <div class="product-item">
+        <div class="product-flavour">
+          <img src="images/pro_orange_boost.png" alt="Orange flavour">
+        </div>
+        
+        <div class="product-copy">
+          <h3>Orange</h3>
+          <p>Vitamin enhanced fruit juice that delivers a natural energy lift with every squeeze.</p>
+        </div>
+        <a href="#" class="product-btn">Add to Cart</a>
+      </div>
+
+      <div class="product-item">
+        <div class="product-flavour">
+          <img src="images/pro_coconut.png" alt="Coconut flavour">
+        </div>
+        <div class="product-copy">
+          <h3>Coconut</h3>
+          <p>Vitamin enhanced fruit juice that delivers a natural energy lift with every squeeze.</p>
+        </div>
+        <a href="#" class="product-btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <button class="next">›</button>
+  </div>
+
+</section>
+
+<section id="design" class="grid-full">
+  <div class="bottle-bg">
+    <div class="grid-con center-grid-con">
+
+      <div class="bottle-image col-start-1 col-end-3 m-col-start-2 m-col-end-7">
+        <img
+          src="images/pro_bottle_800.png"
+          srcset="
+            images/pro_bottle_400.png 400w,
+            images/pro_bottle_800.png 800w,
+            images/pro_bottle_1200.png 1200w"
+          sizes="(max-width: 767px) 50vw, 40vw"
+          alt="Squeezit bottle design">
+      </div>
+
+      <div class="bottle-text col-start-3 col-end-5 m-col-start-7 m-col-end-12">
+        <h2>Bottle Design</h2>
+        <p>
+          The <span>SQUEEZIT</span> bottle is soft, flexible, and made to be squeezed—turning every sip into a playful, hands-on experience.
+          <span class="tablet-text"> Its ergonomic shape allows juice to flow smoothly with a simple press, making it easy and interactive to enjoy anywhere.
+          Designed with minimal materials and direct washable printing, the bottle reduces excess packaging while maintaining a clean, functional form.</span>
+        </p>
+      </div>
+
+      <div class="bottle-mobile-detail col-span-full">
+        <p>
+          Its ergonomic shape allows juice to flow smoothly with a simple press, making it easy and interactive to enjoy anywhere.
+          Designed with minimal materials and direct washable printing, the bottle reduces excess packaging while maintaining a clean, functional form.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
             
 </main>
 <footer class="footer grid-full">
