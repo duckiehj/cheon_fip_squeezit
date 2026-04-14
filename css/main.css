@@ -593,7 +593,27 @@ h3 {
     text-align: right;
     justify-self: end;
   }
+
+  .product-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .product-item {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-flavour {
+    width: 180px;
+    height: 180px;
+  }
+
 }
+
 
 
 /* -- 9. Desktop Queries  -- */
@@ -634,6 +654,11 @@ h3 {
   #footer-nav-left li,
   #footer-nav-right li {
     margin-bottom: 16px;
+  }
+
+  .product-flavour {
+    width: 275px;
+    height: 275px;
   }
 
   
@@ -823,3 +848,49 @@ h3 {
 
 
 /* -- 11. About Products Page  -- */
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-flavour {
+  width: 275px;
+  height: 275px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background-color: #F2CD5C; 
+}
+
+.product-item h3 {
+  margin: 10px 0 5px;
+}
+
+.product-item p {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.product-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 24px;
+  background-color: #BF0413;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-family: 'alphabet-soup', 'alphabet-soup-pro', sans-serif, arial;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.product-btn:hover {
+  background-color: #F27405;
+}
